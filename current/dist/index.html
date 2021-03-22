@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Current</title>
+  <meta charset="UTF-8" />
+  <script src="./moduleA.js"></script>
+  <script src="./moduleB.js"></script>
+</head>
+<body>
+<div id="moduleA"></div>
+<div id="moduleB"></div>
+<script type="text/javascript">
+  document.getElementById("moduleA").innerText = MyLibrary.moduleA ? "moduleA loaded" : "moduleA not found";
+  document.getElementById("moduleB").innerText = MyLibrary.moduleB ? "moduleB loaded" : "moduleB not found";
+</script>
+</body>
+</html>

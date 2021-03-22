@@ -1,0 +1,13 @@
+{
+  "name": "proposing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack": "https://github.com/Hinaser/webpack/#umd-with-assign-properties",
+    "webpack-cli": "^4.5.0"
+  }
+}
